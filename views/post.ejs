@@ -1,0 +1,20 @@
+<%- include("common/header.ejs") %>
+
+
+        <div class="d-flex justify-content-center align-items-center text-center">
+            <form id="myForm" method="post">
+              <label for="titleInput" class="large-text">Title:</label>
+              <input type="text" class="title-dim" id="titleInput" name="title" value="<%= typeof title !== 'undefined' ? title : '' %>">
+        
+              <label for="contentInput" class="large-text">Content:</label>
+              <input type="text" class="box-dim"  id="contentInput" name="content" value="<%= typeof content !== 'undefined' ? content : '' %>">
+        
+              <input id="submitPost" class="btn btn-primary w-50 btn-color large-text" type="submit" value="Submit" formaction="/posts">
+
+            </form>
+        </div>
+
+      
+    
+  
+<%- include("common/footer.ejs") %>

@@ -1,0 +1,66 @@
+.roundImg{
+    border-radius: 50%;
+}
+
+body{
+    background-image: url("/images/background.jpg");
+}
+
+.btn-main{
+    
+   font-size: xx-large;
+    height: 80px;
+    width: 250px;
+}
+
+.btn-dim{
+    font-size: large;
+    height: 40px;
+    width: 100px;
+}
+
+.btn-color{
+    background-color: rgba(66, 65, 65, 0.842);
+    color: rgb(218, 227, 235);
+    border-color: rgba(66, 65, 65, 0.842);
+    
+}
+.page-margin{
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+}
+
+.blogs{
+    background-color: rgba(186, 198, 206, 0.678);
+}
+
+.box{
+    height: 200px;
+}
+
+.right{
+    text-align: end;
+}
+
+form label, form input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+
+.box-dim {
+    height: 100px;
+    width: 500px;
+}
+
+.title-dim {
+    height: 50px;
+    width: 500px;
+}
+
+
+.large-text{
+    font-size: x-large;
+    font-weight: bold;
+}
